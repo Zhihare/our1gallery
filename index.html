@@ -1,85 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/our1gallery/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    
-    <script type="module" crossorigin src="/our1gallery/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/our1gallery/assets/index-10c40100.css">
-  </head>
-  <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/our1gallery/assets/linklogo-48777963.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OUR1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap" rel="stylesheet">
+  
+  <script type="module" crossorigin src="/our1gallery/commonHelpers.js"></script>
+  <link rel="stylesheet" href="/our1gallery/assets/index-fa45ef22.css">
+</head>
+
+<body>
+  <header class="header">
+  <button class="header-button" data-menu-open>Menu
+    <img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+  </button>
+  <nav>
+    <ul class="navigation-list">
+      <li class="navigation-item">Events</li>
+      <li class="navigation-item">Exhibitions</li>
+      <li class="navigation-item">Catalogue</li>
     </ul>
   </nav>
+  <img class="header-logo" src="data:image/png;base64,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">
+  <ul class="navigation-icons">
+    <li class="nav-icons-item">
+      <svg class="nav-icons-item-svg" width="28" height="28">
+        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#instagram"></use>
+      </svg>
+    </li>
+    <li class="nav-icons-item">
+      <svg class="nav-icons-item-svg" width="28" height="28">
+        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#facebook"></use>
+      </svg>
+    </li>
+    <li class="nav-icons-item">
+      <svg class="nav-icons-item-svg" width="28" height="28">
+        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#x"></use>
+      </svg>
+    </li>
+  </ul>
 </header>
+<main class="main-content">
+  <img class="background-img" src="/our1gallery/assets/image 175-921e92f0.jpg" height="800px">
+		<!-- <img class="background-img-mobile" src="/img/elem-logo (2).png" width="680px"> -->
 
+		<div class="main-titles">
+			<h1 class="title-site">The OUR1
+				<br>Art Foundation
+			</h1>
+			<p class="paragraph">an exhibition space that encourages dialogue about contemporary art among its
+				audience.
+			</p>
+			<div class="button-block">
+				<button class="title-button">See the catalogue
+					<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIOSURBVHgBzViLccIwDFW4DuAN6hEYId2ADZoRsgHZADaATlA2oJ2gbNBsQJjAlUA+ODeOrDhwvDudnUSSXyT/C1DCOWexWPCjQem4hJ76riiKFhQoUhWRSIWFRWm5oU7QJ2ILb4P6W5gC6LhEWXNkxvqwKA3/1GgnBqUmQjAR+Odqjp7K0HJUdIbpvjfJEffhhTsD21iKpDhNW3gQxCxwfi08jtC5n8Y+VrEOfI++dOO77G031m8410eUOdyP1Cp8UfWlikP64y4YTUqKMA+kiuozfmf7pniejd9QDnBZEvYjSVHffI995LbtP3Yx5EaKRi7bLgZ0KEuvkDpz5pBC3U+2qwT/NaXMSAslITN94g97DjNQIIOUJ9RKekRIjM4EpFLnsW6mUM4hZX2DMAyjSlkmKcJR+A7qlGlJBRPuSXA5LmVaUoHuEExWhBJJWVDg3IfcBKt5QqTaIXvm0CUtHRr0zOhrrv8KdtcF3k28ZQ1IeewFm4bKF35uiZ32UMeOLFctXPsLld8oSUsL+2jDl2vBaEl/SaFn0WI34Lvx9Zeb9zv8UGKUviJ2HygVxEdNy2UXyInLQ4RMCbEO74StCA8A2gPPuW4hA+yjHlIwUuqmhLscGI2k9KiDYuOUp9dNbkoivikLK7Vv90yXDYGTShXefh/+8qKUdJ/uwiqZ0E1DlhuKXeMZuO4g1Fd6f/KLl4MpASZNAAAAAElFTkSuQmCC" width="24px">
+				</button>
+				<button class="title-button white">Visit
+					<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKzSURBVHgBvVjtkZswEF3w54x/hA5CCSmBdEAqCB2EDs4dJB3E6YAOklSQ6yB0cNwPezz+zHtEutg5hCTAfjMYYbS7TytpV0sgnpjP5/HxeEzDMJTz+RzhqoIgiPju//ZoNCq2223poV4C146TySSDsRiGysViUVRAW/8IAJn0dDrVMvv9fiVDYDweJ7PZ7As9Ix1B2el0uuSgpCs4QijIoSyRgUBdGFxO3b6CMb3iLeioG9766uxxdsS1lBsDpB6spOgRdFzJnWCdBbVmYrkfIq4pMZDJTAv4FmtJgza5k1+94LY0CDxgFE8g/E5uBOj/fPWH8k7c0Jdr6hcEzn1I2TxM2zpGhfxhBDaE+Gq3271HpH2kXqSL711IbTYbrs2Ppve0TQ41IbKDodKsbhBSTB8reDs1dWB6AZe3IRopGkW7vn6kMPo3yqhx6pDrCrz/QEKRLVEOQMpll1ZIxH/XkAc6kdKe4bS09ePRJcSPi3d6kdJnJBvIJWyb1wFJxdpgm1Jy8Z2yPqQEJ8gnm9IuU+ZF6jLgov3cpqzPlHmReulo2c31lPX0kAupWDxQr6GBsrnNU6VFPqqdc5nYBsJVQuYhTLV/twnpBB9eJraBcOUpXJ/U/2WbkE7wYz4wuZKdb1FH6F10OBxiPTDecf1E0ym1KB0l2zUhEFnRtWjmJiEeymEkkX+LtL7DE/UDYoxYYNzyyGEZvLp8IUTAWMGjJEb6o0kIXvwG45mYd02pCLKcrnjHI9vPqv3YJESbxuOPrYhTJVLC3aPasfSAqv/ytj6Rmrq7gAWjNeToOlxuT2bpVb16lbseoEdYZXTRXRdxjTVTR6gvKXmvzICRZF7ubdYRq086ia2v8wcrEtMfn1w/WK3X65RBktuasU4c4EzoghhJpfrYomLOVVufIBjbfKP/H+JbgJguc+y9AAAAAElFTkSuQmCC" width="24px">
+				</button>
+			</div>
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/our1gallery/assets/javascript-8dac5379.svg" alt="" />
-    </section>
+			<div class="title-informations-container">
+				<div class="title-informations-item">
+					<h2 class="title-informations-item-title">
+						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAyCAYAAADREbxyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATgSURBVHgB3VzrUdtAEF6LN/xxKsAd4A4wFUAqwB1AB5AKgApwKjCuAKcC7ApiKsCZAYbhme/T3DGHI0uynnv5ZjSyTrK0u/Pd3mP3riEFYX19vfX29tYJgmAHl21TPMXRdB6z16P39/fx0tLS8OnpaSIVoQnc39+38d19XLbkq2yzMk4/Pj7GkHP4+vo6lILQkBygAo+Pj0f4edBoNH5BuFEaI66srLTxfMv8bxvnEc4XZRjfyNjBz0NeGzmHW1tbkykQ9z/I04bRSZ5dnPns4Pn5+UqqxvLycmdtbe0aRx/M7khO8B2rq6s9HJesKVIAaDC87wRHH3Ie81pygHLh6FJvEKYrVYAfpQI0TF4FYt6f2/AwyhENUwQZolCJ4akEjV2WEi5o7CwKWUKQ0VIB8L3TImvlJ6DAGY5zqRhUCEY/S/OsdXOFK58AS45Cvku3YV7WlZoABh1QhjgXZmpfrww3lwbW6JRVssIamz0KqRmUYZ7RoSwbxlOpH2yke5DnULJAi7EtrNHdMsPsU1EEtiEL240+e3NzM3v1KAl0bdan2wZS9IGe4Sa1T2fPQBtrXLDxNo145Q1kWhif3k/74LUoBwhxU2dDngYbGxvHid3TUvqUBYP+kQZPxaCaYcYtLbcssD/sjSonk7IAcyFHmCD7jrmNP+x7i2JAzgvM25xE3vSB3RzlOgOhpg/ub7atCRnuC7vB6iPMRl6YS87eTesa7KQFauQPsLz7pZAtv/bqabqBlzNlHc09Kgu3+2p9+E6Rk+xlgMENnAZuGWrkEKd9UQ748rEldEDmoKpORDkg9CEGY8PZcgYUoMO26EYPrjAcSAZRzFGKaVSEhlEm6LAnimHaRoYeSZygrZ3hCIdxbuI26h5DetRB9CNs4OnDd15eXkaiGJCvhdMk6p7LHuW4fXh4aNHgU1EOBpzhNlSTIgl0fdSDBlfdjyXg8poQdhpzXz1pCOoRiAeAsZvw1Xdx90U5IP+EZy8M/j/BCx9OlwEf/k08Bnx4WAu98OH03yZTax68aPjZ/fbCpYAdzPOLI4Z60gAtEocGH2sfGscNbsygaCz6EY53Ao+GxpGk4KAIzPGmjx54NDRuzpn75mzhUBSDtdBOnwSGPbuiHwPmds8WsjHSHjjB1HcHnuTnZwFz+LQHICQipMYARB05j4siKn+m6UMUfDbdzYc4LN3JbKQqRFLCpAa4IbWokJtGzCWFUcYHBfpmdYMPWQbxpKAyHgSTQ2L4Qo5YUqTOiasZUOQuVy52BUido8mcuLSrDuoA88GZs6e5zTHEvUn9B3a1MieWlwizGiLsBpp8cXW10Vk10lrkf14k5Lv54lqQx26+LDnhSrITqRlOz6krOdDMvVgoJ+jakvy1Xb5Xl0+3bqSwVSP0m3WwaJHlina1W9V9c7tcsXBPYFffVqEQlciywLXKhbGG1Wd2ICZloKil2fNg/WDigCEBZS/N5nvLXFr+D1zDFzEydRhdmBJmM4JTa/i8BLGbJeB9v/nerKzOtX2Hybxl9d0xE+wDnpNS59y9VfD8Hs5XKDuP204jp5xdfCccV2BemjKOktKz7d4qmG/nscvcFybXmxTpzMhlcBeGQR2zvwgNOZ1J0HE3qxmn3VulSNg9UPDtDmWEfJ+37A8jtz2PGb6DbqOiyPAXfz3sbnH4PS8AAAAASUVORK5CYII=" width="92px">
+					</h2>
+					<p class="title-informations-item-paragraph">Articles and reviews about <span
+							class="title-informations-item-paragraph-span">OUR1</span> exhibitions, events, master
+						classes</p>
+				</div>
+				<div class="title-informations-item">
+					<h2 class="title-informations-item-title">500+</h2>
+					<p class="title-informations-item-paragraph luster">Artists from around the world participated
+						in
+						personal
+						and thematic group exhibitions</p>
+				</div>
+			</div>
+		</div>
 
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
+  <div class="About-container">
+	<div class="About-title">
+		<h1 class="About-title-title">Events</h1>
+		<button class="About-title-button">
+			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
+		</button>
+	</div>
+</div>
+  <div class="About-container">
+	<div class="About-title">
+		<h1 class="About-title-title">Past exhibitions</h1>
+		<button class="About-title-button">
+			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
+		</button>
+	</div>
+</div>
+  <div class="About-container">
+	<div class="About-title">
+		<h1 class="About-title-title">Catalogue</h1>
+		<button class="About-title-button">
+			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
+		</button>
+	</div>
+</div>
 
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
+  <div class="About-container">
+	<div class="About-title">
+		<h1 class="About-title-title">About</h1>
+		<button class="About-title-button">
+			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
+		</button>
+	</div>
+	<div class="Abaut-paragraph-container">
+		<p class="About-paragraph">The OUR1 Art Foundation is a nonprofit exhibition space that
+			encourages the
+			appreciation of contemporary art among
+			diverse audiences. Founded in 2008 by art patron and philanthropist Glenn Fuhrman, OUR1
+			presents
+			rotating exhibitions
+			that include artworks borrowed from a variety of sources. OUR1 invites a broad range of
+			creative
+			individuals to curate
+			thematic group shows and works in-depth with artists to provide curatorial support and a
+			platform to
+			realize solo
+			exhibitions.</p>
+		<img class="Abaut-paragraph-img" src="/our1gallery/assets/clyacks_white-e317be7e.png" width="480px">
+	</div>
+	<div class="About-next-info">
+		<div class="About-background-img"></div>
+		<div class="About-twosector">
+			<div class="About-next-info-title">
+				<div class="About-next-info-title-img">
+					<p>Art</p>
+				</div>
+				<h1 class="About-next-info-title-text">The OUR1
+					<br>&ensp; Foundation
+				</h1>
+			</div>
+			<ul class="About-next-list">
+				<li class="About-next-info-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGdSURBVHgBrVVLUsJAEG1i+AQWxBvkCCxdsnQnNwBOoN4ATyCeQDwBeAK5AbkBuHMHrkiAIr6XSlJTOhVDMq9q6Kl08vr1THcjkgPbtvv1en0kpkCyZrMZJetBTABEa4V022q1vKLfWrqHnU6nB+Mpj9woiuYukD7g0TQajVesLYKu1KA2f+AY0B4OhwXt6XQaamL19vv9CgQbBOjVajVX9Z3P5xHsJCZFhD5VJClvYHZ8SfTwuECo8/mZ0iAIfCjdJZE9MYArrACkIdTeSgVA1I1lWd84Bj/LA6lPYe6lIhzHuc5uH0qXUhFQOd0BakndSUUg/QFLK06fGyhdixm8p0qHYg7dWClbUgyVE6pgTKVsQVcMADxPqPtZXKeYSA5sXyoAhDO0+SP3JGWvL0H8iW3prgLpGCX1xf2fJkYljOB8/jUw/kUYhhmXdjJANafQxyXE7CQWPvfaeXo8Hn0U8ovGtUEWY6T6JiXhKpM/Xjya1In9RPEVbxxMr1Xeh5zFeGfebrcHhUk5ucr8+dl5TlzUFGfIy+rijBdSED+tMZn7HDVN0gAAAABJRU5ErkJggg==">
+					<p>Hours: Wednesday-Saturday, 11 AM-5 PM</p>
+				</li>
+				<li class="About-next-info-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGdSURBVHgBrVVLUsJAEG1i+AQWxBvkCCxdsnQnNwBOoN4ATyCeQDwBeAK5AbkBuHMHrkiAIr6XSlJTOhVDMq9q6Kl08vr1THcjkgPbtvv1en0kpkCyZrMZJetBTABEa4V022q1vKLfWrqHnU6nB+Mpj9woiuYukD7g0TQajVesLYKu1KA2f+AY0B4OhwXt6XQaamL19vv9CgQbBOjVajVX9Z3P5xHsJCZFhD5VJClvYHZ8SfTwuECo8/mZ0iAIfCjdJZE9MYArrACkIdTeSgVA1I1lWd84Bj/LA6lPYe6lIhzHuc5uH0qXUhFQOd0BakndSUUg/QFLK06fGyhdixm8p0qHYg7dWClbUgyVE6pgTKVsQVcMADxPqPtZXKeYSA5sXyoAhDO0+SP3JGWvL0H8iW3prgLpGCX1xf2fJkYljOB8/jUw/kUYhhmXdjJANafQxyXE7CQWPvfaeXo8Hn0U8ovGtUEWY6T6JiXhKpM/Xjya1In9RPEVbxxMr1Xeh5zFeGfebrcHhUk5ucr8+dl5TlzUFGfIy+rijBdSED+tMZn7HDVN0gAAAABJRU5ErkJggg==">
+					<p>545 West 25th Street, New York</p>
+				</li>
+				<li class="About-next-info-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGdSURBVHgBrVVLUsJAEG1i+AQWxBvkCCxdsnQnNwBOoN4ATyCeQDwBeAK5AbkBuHMHrkiAIr6XSlJTOhVDMq9q6Kl08vr1THcjkgPbtvv1en0kpkCyZrMZJetBTABEa4V022q1vKLfWrqHnU6nB+Mpj9woiuYukD7g0TQajVesLYKu1KA2f+AY0B4OhwXt6XQaamL19vv9CgQbBOjVajVX9Z3P5xHsJCZFhD5VJClvYHZ8SfTwuECo8/mZ0iAIfCjdJZE9MYArrACkIdTeSgVA1I1lWd84Bj/LA6lPYe6lIhzHuc5uH0qXUhFQOd0BakndSUUg/QFLK06fGyhdixm8p0qHYg7dWClbUgyVE6pgTKVsQVcMADxPqPtZXKeYSA5sXyoAhDO0+SP3JGWvL0H8iW3prgLpGCX1xf2fJkYljOB8/jUw/kUYhhmXdjJANafQxyXE7CQWPvfaeXo8Hn0U8ovGtUEWY6T6JiXhKpM/Xjya1In9RPEVbxxMr1Xeh5zFeGfebrcHhUk5ucr8+dl5TlzUFGfIy+rijBdSED+tMZn7HDVN0gAAAABJRU5ErkJggg==">
+					<p>info@flagartfoundation.org</p>
+				</li>
+				<li class="About-next-info-item">
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGdSURBVHgBrVVLUsJAEG1i+AQWxBvkCCxdsnQnNwBOoN4ATyCeQDwBeAK5AbkBuHMHrkiAIr6XSlJTOhVDMq9q6Kl08vr1THcjkgPbtvv1en0kpkCyZrMZJetBTABEa4V022q1vKLfWrqHnU6nB+Mpj9woiuYukD7g0TQajVesLYKu1KA2f+AY0B4OhwXt6XQaamL19vv9CgQbBOjVajVX9Z3P5xHsJCZFhD5VJClvYHZ8SfTwuECo8/mZ0iAIfCjdJZE9MYArrACkIdTeSgVA1I1lWd84Bj/LA6lPYe6lIhzHuc5uH0qXUhFQOd0BakndSUUg/QFLK06fGyhdixm8p0qHYg7dWClbUgyVE6pgTKVsQVcMADxPqPtZXKeYSA5sXyoAhDO0+SP3JGWvL0H8iW3prgLpGCX1xf2fJkYljOB8/jUw/kUYhhmXdjJANafQxyXE7CQWPvfaeXo8Hn0U8ovGtUEWY6T6JiXhKpM/Xjya1In9RPEVbxxMr1Xeh5zFeGfebrcHhUk5ucr8+dl5TlzUFGfIy+rijBdSED+tMZn7HDVN0gAAAABJRU5ErkJggg==">
+					<p>(212) 206-0220</p>
+				</li>
+			</ul>
+		</div>
+		<div class="visit-conteiner">
+			<h2 class="visit-conteiner-title">Plan Your Visit</h2>
+			<form class="visit-form">
+				<label class="visit-label" for="Name">
+					<input class="visit-input" type="text" name="Name" placeholder="&nbsp;">
+					<span class="label-text">Your Name</span>
+				</label>
+				<label class="visit-label" for="Email">
+					<input class="visit-input" type="email" name="Email" placeholder="&nbsp;">
+					<span class="label-text">Your Email</span>
+				</label>
+				<label class="visit-label" for="Number">
+					<input class="visit-input" type="number" name="Number" placeholder="&nbsp;">
+					<span class="label-text">Your phone
+						number</span>
+				</label>
+				<button type="submit" class="visit-button">To Plan
+					<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIOSURBVHgBzViLccIwDFW4DuAN6hEYId2ADZoRsgHZADaATlA2oJ2gbNBsQJjAlUA+ODeOrDhwvDudnUSSXyT/C1DCOWexWPCjQem4hJ76riiKFhQoUhWRSIWFRWm5oU7QJ2ILb4P6W5gC6LhEWXNkxvqwKA3/1GgnBqUmQjAR+Odqjp7K0HJUdIbpvjfJEffhhTsD21iKpDhNW3gQxCxwfi08jtC5n8Y+VrEOfI++dOO77G031m8410eUOdyP1Cp8UfWlikP64y4YTUqKMA+kiuozfmf7pniejd9QDnBZEvYjSVHffI995LbtP3Yx5EaKRi7bLgZ0KEuvkDpz5pBC3U+2qwT/NaXMSAslITN94g97DjNQIIOUJ9RKekRIjM4EpFLnsW6mUM4hZX2DMAyjSlkmKcJR+A7qlGlJBRPuSXA5LmVaUoHuEExWhBJJWVDg3IfcBKt5QqTaIXvm0CUtHRr0zOhrrv8KdtcF3k28ZQ1IeewFm4bKF35uiZ32UMeOLFctXPsLld8oSUsL+2jDl2vBaEl/SaFn0WI34Lvx9Zeb9zv8UGKUviJ2HygVxEdNy2UXyInLQ4RMCbEO74StCA8A2gPPuW4hA+yjHlIwUuqmhLscGI2k9KiDYuOUp9dNbkoivikLK7Vv90yXDYGTShXefh/+8qKUdJ/uwiqZ0E1DlhuKXeMZuO4g1Fd6f/KLl4MpASZNAAAAAElFTkSuQmCC" width="48px">
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/our1gallery/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
-  </div>
-</section>
+</main>
+<footer class="footer-conteiner">
+  <div class="footer-navigation">
+	<ul class="footer-navigation-container">
+		<li class="footer-navigation-item">Home</li>
+		<li class="footer-navigation-item">About</li>
+		<li class="footer-navigation-item">Contacts</li>
+		<li class="footer-navigation-item">Event</li>
+		<li class="footer-navigation-item">Exhibitions</li>
+		<li class="footer-navigation-item">Catalogue</li>
+	</ul>
+</div>
+<div class="footer-logo">
+	<img class="footer-logo" src="data:image/png;base64,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" width="192px" height="84px">
+	<ul class="navigation-icons footer">
+		<li class="nav-icons-item">
+			<svg class="nav-icons-item-svg footer" width="48" height="28">
+				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#instagram"></use>
+			</svg>
+		</li>
+		<li class="nav-icons-item">
+			<svg class="nav-icons-item-svg footer" width="48" height="28">
+				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#facebook"></use>
+			</svg>
+		</li>
+		<li class="nav-icons-item">
+			<svg class="nav-icons-item-svg footer" width="48" height="28">
+				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#x"></use>
+			</svg>
+		</li>
+	</ul>
+</div>
+<div class="footer-form">
+	<h2 class="footer-title">Subscribe to news from <span class="footer-title-span">OUR1</span></h2>
+	<form class="footer-form-form">
+		<label class="footer-form-label" for="Email">
+			<input class="footer-form-input" type="email" name="Email" placeholder="Your Email">
+		</label>
+		<button type="submit" class="footer-form-button">Send
+		</button>
+	</form>
+</div>
+</footer>
 
+  
+</body>
 
-    
-  </body>
 </html>
