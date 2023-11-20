@@ -5,6 +5,25 @@
   padding: 8px 40px;
 }
 
+.header.is-open {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+
+
+}
+
+.header.is-open>.header-button>.header-button-icon {
+  transform: rotate(270deg);
+
+
+}
+
 @media only screen and (min-width: 1440px) {
   .header {
     padding: 8px 65px;
@@ -89,5 +108,3 @@
     display: none;
   }
 }
-
-.header-button-icon {}
