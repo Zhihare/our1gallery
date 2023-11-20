@@ -13,81 +13,80 @@
 	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500&display=swap" rel="stylesheet">
   
   <script type="module" crossorigin src="/our1gallery/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/our1gallery/assets/index-fa45ef22.css">
+  <link rel="stylesheet" href="/our1gallery/assets/index-5b937402.css">
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" data-menu-header>
   <button class="header-button" data-menu-open>Menu
     <img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
   </button>
-  <nav>
+  <nav id="Home">
     <ul class="navigation-list">
-      <li class="navigation-item">Events</li>
-      <li class="navigation-item">Exhibitions</li>
-      <li class="navigation-item">Catalogue</li>
+      <li class="navigation-item"><a href="#Event">Events</a></li>
+      <li class="navigation-item"><a href="#Exhibition">Exhibitions</a></li>
+      <li class="navigation-item"><a href="#Catalogue">Catalogue</a></li>
     </ul>
   </nav>
   <img class="header-logo" src="data:image/png;base64,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">
   <ul class="navigation-icons">
     <li class="nav-icons-item">
       <svg class="nav-icons-item-svg" width="28" height="28">
-        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#instagram"></use>
+        <use href="/our1gallery/assets/symbol-defs-795bb67f.svg#instagram"></use>
       </svg>
     </li>
     <li class="nav-icons-item">
       <svg class="nav-icons-item-svg" width="28" height="28">
-        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#facebook"></use>
+        <use href="/our1gallery/assets/symbol-defs-795bb67f.svg#facebook"></use>
       </svg>
     </li>
     <li class="nav-icons-item">
       <svg class="nav-icons-item-svg" width="28" height="28">
-        <use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#x"></use>
+        <use href="/our1gallery/assets/symbol-defs-795bb67f.svg#x"></use>
       </svg>
     </li>
   </ul>
 </header>
 <main class="main-content">
   <img class="background-img" src="/our1gallery/assets/image 175-921e92f0.jpg" height="800px">
-		<!-- <img class="background-img-mobile" src="/img/elem-logo (2).png" width="680px"> -->
+<!-- <img class="background-img-mobile" src="/img/elem-logo (2).png" width="680px"> -->
 
-		<div class="main-titles">
-			<h1 class="title-site">The OUR1
-				<br>Art Foundation
-			</h1>
-			<p class="paragraph">an exhibition space that encourages dialogue about contemporary art among its
-				audience.
-			</p>
-			<div class="button-block">
-				<button class="title-button">See the catalogue
-					<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIOSURBVHgBzViLccIwDFW4DuAN6hEYId2ADZoRsgHZADaATlA2oJ2gbNBsQJjAlUA+ODeOrDhwvDudnUSSXyT/C1DCOWexWPCjQem4hJ76riiKFhQoUhWRSIWFRWm5oU7QJ2ILb4P6W5gC6LhEWXNkxvqwKA3/1GgnBqUmQjAR+Odqjp7K0HJUdIbpvjfJEffhhTsD21iKpDhNW3gQxCxwfi08jtC5n8Y+VrEOfI++dOO77G031m8410eUOdyP1Cp8UfWlikP64y4YTUqKMA+kiuozfmf7pniejd9QDnBZEvYjSVHffI995LbtP3Yx5EaKRi7bLgZ0KEuvkDpz5pBC3U+2qwT/NaXMSAslITN94g97DjNQIIOUJ9RKekRIjM4EpFLnsW6mUM4hZX2DMAyjSlkmKcJR+A7qlGlJBRPuSXA5LmVaUoHuEExWhBJJWVDg3IfcBKt5QqTaIXvm0CUtHRr0zOhrrv8KdtcF3k28ZQ1IeewFm4bKF35uiZ32UMeOLFctXPsLld8oSUsL+2jDl2vBaEl/SaFn0WI34Lvx9Zeb9zv8UGKUviJ2HygVxEdNy2UXyInLQ4RMCbEO74StCA8A2gPPuW4hA+yjHlIwUuqmhLscGI2k9KiDYuOUp9dNbkoivikLK7Vv90yXDYGTShXefh/+8qKUdJ/uwiqZ0E1DlhuKXeMZuO4g1Fd6f/KLl4MpASZNAAAAAElFTkSuQmCC" width="24px">
-				</button>
-				<button class="title-button white">Visit
-					<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKzSURBVHgBvVjtkZswEF3w54x/hA5CCSmBdEAqCB2EDs4dJB3E6YAOklSQ6yB0cNwPezz+zHtEutg5hCTAfjMYYbS7TytpV0sgnpjP5/HxeEzDMJTz+RzhqoIgiPju//ZoNCq2223poV4C146TySSDsRiGysViUVRAW/8IAJn0dDrVMvv9fiVDYDweJ7PZ7As9Ix1B2el0uuSgpCs4QijIoSyRgUBdGFxO3b6CMb3iLeioG9766uxxdsS1lBsDpB6spOgRdFzJnWCdBbVmYrkfIq4pMZDJTAv4FmtJgza5k1+94LY0CDxgFE8g/E5uBOj/fPWH8k7c0Jdr6hcEzn1I2TxM2zpGhfxhBDaE+Gq3271HpH2kXqSL711IbTYbrs2Ppve0TQ41IbKDodKsbhBSTB8reDs1dWB6AZe3IRopGkW7vn6kMPo3yqhx6pDrCrz/QEKRLVEOQMpll1ZIxH/XkAc6kdKe4bS09ePRJcSPi3d6kdJnJBvIJWyb1wFJxdpgm1Jy8Z2yPqQEJ8gnm9IuU+ZF6jLgov3cpqzPlHmReulo2c31lPX0kAupWDxQr6GBsrnNU6VFPqqdc5nYBsJVQuYhTLV/twnpBB9eJraBcOUpXJ/U/2WbkE7wYz4wuZKdb1FH6F10OBxiPTDecf1E0ym1KB0l2zUhEFnRtWjmJiEeymEkkX+LtL7DE/UDYoxYYNzyyGEZvLp8IUTAWMGjJEb6o0kIXvwG45mYd02pCLKcrnjHI9vPqv3YJESbxuOPrYhTJVLC3aPasfSAqv/ytj6Rmrq7gAWjNeToOlxuT2bpVb16lbseoEdYZXTRXRdxjTVTR6gvKXmvzICRZF7ubdYRq086ia2v8wcrEtMfn1w/WK3X65RBktuasU4c4EzoghhJpfrYomLOVVufIBjbfKP/H+JbgJguc+y9AAAAAElFTkSuQmCC" width="24px">
-				</button>
-			</div>
+<div class="main-titles">
+	<h1 class="title-site">The OUR1
+		<br>Art Foundation
+	</h1>
+	<p class="paragraph">an exhibition space that encourages dialogue about contemporary art among its
+		audience.
+	</p>
+	<div class="button-block">
+		<button class="title-button">See the catalogue
+			<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIOSURBVHgBzViLccIwDFW4DuAN6hEYId2ADZoRsgHZADaATlA2oJ2gbNBsQJjAlUA+ODeOrDhwvDudnUSSXyT/C1DCOWexWPCjQem4hJ76riiKFhQoUhWRSIWFRWm5oU7QJ2ILb4P6W5gC6LhEWXNkxvqwKA3/1GgnBqUmQjAR+Odqjp7K0HJUdIbpvjfJEffhhTsD21iKpDhNW3gQxCxwfi08jtC5n8Y+VrEOfI++dOO77G031m8410eUOdyP1Cp8UfWlikP64y4YTUqKMA+kiuozfmf7pniejd9QDnBZEvYjSVHffI995LbtP3Yx5EaKRi7bLgZ0KEuvkDpz5pBC3U+2qwT/NaXMSAslITN94g97DjNQIIOUJ9RKekRIjM4EpFLnsW6mUM4hZX2DMAyjSlkmKcJR+A7qlGlJBRPuSXA5LmVaUoHuEExWhBJJWVDg3IfcBKt5QqTaIXvm0CUtHRr0zOhrrv8KdtcF3k28ZQ1IeewFm4bKF35uiZ32UMeOLFctXPsLld8oSUsL+2jDl2vBaEl/SaFn0WI34Lvx9Zeb9zv8UGKUviJ2HygVxEdNy2UXyInLQ4RMCbEO74StCA8A2gPPuW4hA+yjHlIwUuqmhLscGI2k9KiDYuOUp9dNbkoivikLK7Vv90yXDYGTShXefh/+8qKUdJ/uwiqZ0E1DlhuKXeMZuO4g1Fd6f/KLl4MpASZNAAAAAElFTkSuQmCC" width="24px">
+		</button>
+		<button class="title-button white js-open-modal" data-modal="1">Visit
+			<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKzSURBVHgBvVjtkZswEF3w54x/hA5CCSmBdEAqCB2EDs4dJB3E6YAOklSQ6yB0cNwPezz+zHtEutg5hCTAfjMYYbS7TytpV0sgnpjP5/HxeEzDMJTz+RzhqoIgiPju//ZoNCq2223poV4C146TySSDsRiGysViUVRAW/8IAJn0dDrVMvv9fiVDYDweJ7PZ7As9Ix1B2el0uuSgpCs4QijIoSyRgUBdGFxO3b6CMb3iLeioG9766uxxdsS1lBsDpB6spOgRdFzJnWCdBbVmYrkfIq4pMZDJTAv4FmtJgza5k1+94LY0CDxgFE8g/E5uBOj/fPWH8k7c0Jdr6hcEzn1I2TxM2zpGhfxhBDaE+Gq3271HpH2kXqSL711IbTYbrs2Ppve0TQ41IbKDodKsbhBSTB8reDs1dWB6AZe3IRopGkW7vn6kMPo3yqhx6pDrCrz/QEKRLVEOQMpll1ZIxH/XkAc6kdKe4bS09ePRJcSPi3d6kdJnJBvIJWyb1wFJxdpgm1Jy8Z2yPqQEJ8gnm9IuU+ZF6jLgov3cpqzPlHmReulo2c31lPX0kAupWDxQr6GBsrnNU6VFPqqdc5nYBsJVQuYhTLV/twnpBB9eJraBcOUpXJ/U/2WbkE7wYz4wuZKdb1FH6F10OBxiPTDecf1E0ym1KB0l2zUhEFnRtWjmJiEeymEkkX+LtL7DE/UDYoxYYNzyyGEZvLp8IUTAWMGjJEb6o0kIXvwG45mYd02pCLKcrnjHI9vPqv3YJESbxuOPrYhTJVLC3aPasfSAqv/ytj6Rmrq7gAWjNeToOlxuT2bpVb16lbseoEdYZXTRXRdxjTVTR6gvKXmvzICRZF7ubdYRq086ia2v8wcrEtMfn1w/WK3X65RBktuasU4c4EzoghhJpfrYomLOVVufIBjbfKP/H+JbgJguc+y9AAAAAElFTkSuQmCC" width="24px">
+		</button>
+	</div>
 
-			<div class="title-informations-container">
-				<div class="title-informations-item">
-					<h2 class="title-informations-item-title">
-						<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAyCAYAAADREbxyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATgSURBVHgB3VzrUdtAEF6LN/xxKsAd4A4wFUAqwB1AB5AKgApwKjCuAKcC7ApiKsCZAYbhme/T3DGHI0uynnv5ZjSyTrK0u/Pd3mP3riEFYX19vfX29tYJgmAHl21TPMXRdB6z16P39/fx0tLS8OnpaSIVoQnc39+38d19XLbkq2yzMk4/Pj7GkHP4+vo6lILQkBygAo+Pj0f4edBoNH5BuFEaI66srLTxfMv8bxvnEc4XZRjfyNjBz0NeGzmHW1tbkykQ9z/I04bRSZ5dnPns4Pn5+UqqxvLycmdtbe0aRx/M7khO8B2rq6s9HJesKVIAaDC87wRHH3Ie81pygHLh6FJvEKYrVYAfpQI0TF4FYt6f2/AwyhENUwQZolCJ4akEjV2WEi5o7CwKWUKQ0VIB8L3TImvlJ6DAGY5zqRhUCEY/S/OsdXOFK58AS45Cvku3YV7WlZoABh1QhjgXZmpfrww3lwbW6JRVssIamz0KqRmUYZ7RoSwbxlOpH2yke5DnULJAi7EtrNHdMsPsU1EEtiEL240+e3NzM3v1KAl0bdan2wZS9IGe4Sa1T2fPQBtrXLDxNo145Q1kWhif3k/74LUoBwhxU2dDngYbGxvHid3TUvqUBYP+kQZPxaCaYcYtLbcssD/sjSonk7IAcyFHmCD7jrmNP+x7i2JAzgvM25xE3vSB3RzlOgOhpg/ub7atCRnuC7vB6iPMRl6YS87eTesa7KQFauQPsLz7pZAtv/bqabqBlzNlHc09Kgu3+2p9+E6Rk+xlgMENnAZuGWrkEKd9UQ748rEldEDmoKpORDkg9CEGY8PZcgYUoMO26EYPrjAcSAZRzFGKaVSEhlEm6LAnimHaRoYeSZygrZ3hCIdxbuI26h5DetRB9CNs4OnDd15eXkaiGJCvhdMk6p7LHuW4fXh4aNHgU1EOBpzhNlSTIgl0fdSDBlfdjyXg8poQdhpzXz1pCOoRiAeAsZvw1Xdx90U5IP+EZy8M/j/BCx9OlwEf/k08Bnx4WAu98OH03yZTax68aPjZ/fbCpYAdzPOLI4Z60gAtEocGH2sfGscNbsygaCz6EY53Ao+GxpGk4KAIzPGmjx54NDRuzpn75mzhUBSDtdBOnwSGPbuiHwPmds8WsjHSHjjB1HcHnuTnZwFz+LQHICQipMYARB05j4siKn+m6UMUfDbdzYc4LN3JbKQqRFLCpAa4IbWokJtGzCWFUcYHBfpmdYMPWQbxpKAyHgSTQ2L4Qo5YUqTOiasZUOQuVy52BUido8mcuLSrDuoA88GZs6e5zTHEvUn9B3a1MieWlwizGiLsBpp8cXW10Vk10lrkf14k5Lv54lqQx26+LDnhSrITqRlOz6krOdDMvVgoJ+jakvy1Xb5Xl0+3bqSwVSP0m3WwaJHlina1W9V9c7tcsXBPYFffVqEQlciywLXKhbGG1Wd2ICZloKil2fNg/WDigCEBZS/N5nvLXFr+D1zDFzEydRhdmBJmM4JTa/i8BLGbJeB9v/nerKzOtX2Hybxl9d0xE+wDnpNS59y9VfD8Hs5XKDuP204jp5xdfCccV2BemjKOktKz7d4qmG/nscvcFybXmxTpzMhlcBeGQR2zvwgNOZ1J0HE3qxmn3VulSNg9UPDtDmWEfJ+37A8jtz2PGb6DbqOiyPAXfz3sbnH4PS8AAAAASUVORK5CYII=" width="92px">
-					</h2>
-					<p class="title-informations-item-paragraph">Articles and reviews about <span
-							class="title-informations-item-paragraph-span">OUR1</span> exhibitions, events, master
-						classes</p>
-				</div>
-				<div class="title-informations-item">
-					<h2 class="title-informations-item-title">500+</h2>
-					<p class="title-informations-item-paragraph luster">Artists from around the world participated
-						in
-						personal
-						and thematic group exhibitions</p>
-				</div>
-			</div>
+	<div class="title-informations-container">
+		<div class="title-informations-item">
+			<h2 class="title-informations-item-title">
+				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAyCAYAAADREbxyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATgSURBVHgB3VzrUdtAEF6LN/xxKsAd4A4wFUAqwB1AB5AKgApwKjCuAKcC7ApiKsCZAYbhme/T3DGHI0uynnv5ZjSyTrK0u/Pd3mP3riEFYX19vfX29tYJgmAHl21TPMXRdB6z16P39/fx0tLS8OnpaSIVoQnc39+38d19XLbkq2yzMk4/Pj7GkHP4+vo6lILQkBygAo+Pj0f4edBoNH5BuFEaI66srLTxfMv8bxvnEc4XZRjfyNjBz0NeGzmHW1tbkykQ9z/I04bRSZ5dnPns4Pn5+UqqxvLycmdtbe0aRx/M7khO8B2rq6s9HJesKVIAaDC87wRHH3Ie81pygHLh6FJvEKYrVYAfpQI0TF4FYt6f2/AwyhENUwQZolCJ4akEjV2WEi5o7CwKWUKQ0VIB8L3TImvlJ6DAGY5zqRhUCEY/S/OsdXOFK58AS45Cvku3YV7WlZoABh1QhjgXZmpfrww3lwbW6JRVssIamz0KqRmUYZ7RoSwbxlOpH2yke5DnULJAi7EtrNHdMsPsU1EEtiEL240+e3NzM3v1KAl0bdan2wZS9IGe4Sa1T2fPQBtrXLDxNo145Q1kWhif3k/74LUoBwhxU2dDngYbGxvHid3TUvqUBYP+kQZPxaCaYcYtLbcssD/sjSonk7IAcyFHmCD7jrmNP+x7i2JAzgvM25xE3vSB3RzlOgOhpg/ub7atCRnuC7vB6iPMRl6YS87eTesa7KQFauQPsLz7pZAtv/bqabqBlzNlHc09Kgu3+2p9+E6Rk+xlgMENnAZuGWrkEKd9UQ748rEldEDmoKpORDkg9CEGY8PZcgYUoMO26EYPrjAcSAZRzFGKaVSEhlEm6LAnimHaRoYeSZygrZ3hCIdxbuI26h5DetRB9CNs4OnDd15eXkaiGJCvhdMk6p7LHuW4fXh4aNHgU1EOBpzhNlSTIgl0fdSDBlfdjyXg8poQdhpzXz1pCOoRiAeAsZvw1Xdx90U5IP+EZy8M/j/BCx9OlwEf/k08Bnx4WAu98OH03yZTax68aPjZ/fbCpYAdzPOLI4Z60gAtEocGH2sfGscNbsygaCz6EY53Ao+GxpGk4KAIzPGmjx54NDRuzpn75mzhUBSDtdBOnwSGPbuiHwPmds8WsjHSHjjB1HcHnuTnZwFz+LQHICQipMYARB05j4siKn+m6UMUfDbdzYc4LN3JbKQqRFLCpAa4IbWokJtGzCWFUcYHBfpmdYMPWQbxpKAyHgSTQ2L4Qo5YUqTOiasZUOQuVy52BUido8mcuLSrDuoA88GZs6e5zTHEvUn9B3a1MieWlwizGiLsBpp8cXW10Vk10lrkf14k5Lv54lqQx26+LDnhSrITqRlOz6krOdDMvVgoJ+jakvy1Xb5Xl0+3bqSwVSP0m3WwaJHlina1W9V9c7tcsXBPYFffVqEQlciywLXKhbGG1Wd2ICZloKil2fNg/WDigCEBZS/N5nvLXFr+D1zDFzEydRhdmBJmM4JTa/i8BLGbJeB9v/nerKzOtX2Hybxl9d0xE+wDnpNS59y9VfD8Hs5XKDuP204jp5xdfCccV2BemjKOktKz7d4qmG/nscvcFybXmxTpzMhlcBeGQR2zvwgNOZ1J0HE3qxmn3VulSNg9UPDtDmWEfJ+37A8jtz2PGb6DbqOiyPAXfz3sbnH4PS8AAAAASUVORK5CYII=" width="92px">
+			</h2>
+			<p class="title-informations-item-paragraph">Articles and reviews about <span
+					class="title-informations-item-paragraph-span">OUR1</span> exhibitions, events, master
+				classes</p>
 		</div>
-
+		<div class="title-informations-item">
+			<h2 class="title-informations-item-title">500+</h2>
+			<p class="title-informations-item-paragraph luster">Artists from around the world participated
+				in
+				personal
+				and thematic group exhibitions</p>
+		</div>
+	</div>
+</div>
   <div class="About-container">
-	<div class="About-title">
+	<div class="About-title" id="Event">
 		<h1 class="About-title-title">Events</h1>
 		<button class="About-title-button">
 			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
@@ -96,7 +95,7 @@
 </div>
   <div class="About-container">
 	<div class="About-title">
-		<h1 class="About-title-title">Past exhibitions</h1>
+		<h1 class="About-title-title" id="Exhibition">Past exhibitions</h1>
 		<button class="About-title-button">
 			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
 		</button>
@@ -104,7 +103,7 @@
 </div>
   <div class="About-container">
 	<div class="About-title">
-		<h1 class="About-title-title">Catalogue</h1>
+		<h1 class="About-title-title" id="Catalogue">Catalogue</h1>
 		<button class="About-title-button">
 			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
 		</button>
@@ -112,7 +111,7 @@
 </div>
 
   <div class="About-container">
-	<div class="About-title">
+	<div class="About-title" id="About">
 		<h1 class="About-title-title">About</h1>
 		<button class="About-title-button">
 			<img class="About-title-img-button" src="data:image/png;base64,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" width="66px">
@@ -145,7 +144,7 @@
 					<br>&ensp; Foundation
 				</h1>
 			</div>
-			<ul class="About-next-list">
+			<ul class="About-next-list" id="Contacts">
 				<li class="About-next-info-item">
 					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGdSURBVHgBrVVLUsJAEG1i+AQWxBvkCCxdsnQnNwBOoN4ATyCeQDwBeAK5AbkBuHMHrkiAIr6XSlJTOhVDMq9q6Kl08vr1THcjkgPbtvv1en0kpkCyZrMZJetBTABEa4V022q1vKLfWrqHnU6nB+Mpj9woiuYukD7g0TQajVesLYKu1KA2f+AY0B4OhwXt6XQaamL19vv9CgQbBOjVajVX9Z3P5xHsJCZFhD5VJClvYHZ8SfTwuECo8/mZ0iAIfCjdJZE9MYArrACkIdTeSgVA1I1lWd84Bj/LA6lPYe6lIhzHuc5uH0qXUhFQOd0BakndSUUg/QFLK06fGyhdixm8p0qHYg7dWClbUgyVE6pgTKVsQVcMADxPqPtZXKeYSA5sXyoAhDO0+SP3JGWvL0H8iW3prgLpGCX1xf2fJkYljOB8/jUw/kUYhhmXdjJANafQxyXE7CQWPvfaeXo8Hn0U8ovGtUEWY6T6JiXhKpM/Xjya1In9RPEVbxxMr1Xeh5zFeGfebrcHhUk5ucr8+dl5TlzUFGfIy+rijBdSED+tMZn7HDVN0gAAAABJRU5ErkJggg==">
 					<p>Hours: Wednesday-Saturday, 11 AM-5 PM</p>
@@ -187,17 +186,16 @@
 		</div>
 	</div>
 </div>
-
 </main>
 <footer class="footer-conteiner">
   <div class="footer-navigation">
 	<ul class="footer-navigation-container">
-		<li class="footer-navigation-item">Home</li>
-		<li class="footer-navigation-item">About</li>
-		<li class="footer-navigation-item">Contacts</li>
-		<li class="footer-navigation-item">Event</li>
-		<li class="footer-navigation-item">Exhibitions</li>
-		<li class="footer-navigation-item">Catalogue</li>
+		<li class="footer-navigation-item"><a href="#Home">Home</a></li>
+		<li class="footer-navigation-item"><a href="#About">About</a></li>
+		<li class="footer-navigation-item"><a href="#Contacts">Contacts</a></li>
+		<li class="footer-navigation-item"><a href="#Event">Event</a></li>
+		<li class="footer-navigation-item"><a href="#Exhibition">Exhibitions</a></li>
+		<li class="footer-navigation-item"><a href="#Catalogue">Catalogue</a></li>
 	</ul>
 </div>
 <div class="footer-logo">
@@ -205,17 +203,17 @@
 	<ul class="navigation-icons footer">
 		<li class="nav-icons-item">
 			<svg class="nav-icons-item-svg footer" width="48" height="28">
-				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#instagram"></use>
+				<use href="/our1gallery/assets/symbol-defs-795bb67f.svg#instagram"></use>
 			</svg>
 		</li>
 		<li class="nav-icons-item">
 			<svg class="nav-icons-item-svg footer" width="48" height="28">
-				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#facebook"></use>
+				<use href="/our1gallery/assets/symbol-defs-795bb67f.svg#facebook"></use>
 			</svg>
 		</li>
 		<li class="nav-icons-item">
 			<svg class="nav-icons-item-svg footer" width="48" height="28">
-				<use href="/our1gallery/assets/symbol-defs-9fbc6d71.svg#x"></use>
+				<use href="/our1gallery/assets/symbol-defs-795bb67f.svg#x"></use>
 			</svg>
 		</li>
 	</ul>
@@ -231,8 +229,78 @@
 	</form>
 </div>
 </footer>
+<div class="backdrop1" data-menu>
+	<div class="mobile-menu" data-menu>
 
+		<ul class="mobile-nav-list">
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#Home">Home
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+				</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#Event">
+					Event
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+				</a>
+			</li>
+
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#Exhibition"> Exhibitions
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+				</a>
+			</li>
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#Catalogue"> Catalogue
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII="> </a>
+			</li>
+
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#About"> About
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+				</a>
+			</li>
+
+			<li class="mobile-menu-item">
+				<a class="mobile-menu-link link" href="#Contacts"> Contacts
+					<img class="header-button-icon" width="14px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAECSURBVHgBvZSBDYIwEEW/xgFwAhjBEdhEnEBHYBPrBLoBbsAI6AY4gYIp4dtQbEvbn/xc2t7dy0FaYNS+8xkRdez8lg4OXsu4pb0CEScuMU4bYuK+X4LI4KZzHRs89Kt1CWUAMPdDDHBGfZp/yaUncGYD9QXOqb4yLRILwbkLdCm4oLobLCUcwSeuWcNOReeLsjYB84PwsoW6ghnaukBdwAk8SsDsH1eUUyAS2DvUBFzTWQ6PEjPgJhR0Dsx7OwSQmADzOkUgCQXE9np9VF01UGwMijOKieJ05mxKrQ5aySYZ/OsLnXoGD8OhRz2k7/1ipUnqP88wcUuFHJ8ythpz7o8+SrKcFWp//LIAAAAASUVORK5CYII=">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="modal-window modal" data-modal="1">
+	<button class="close-wind js-modal-close" type="button">
+		<svg class="close" width="24" height="24">
+			<use href="../img/icons/symbol-defs.svg#xl"></use>
+		</svg>
+	</button>
+	<div class="visit-conteiner modal">
+		<h2 class="visit-conteiner-title">Plan Your Visit</h2>
+		<form class="visit-form">
+			<label class="visit-label" for="Name">
+				<input class="visit-input" type="text" name="Name" placeholder="&nbsp;">
+				<span class="label-text">Your Name</span>
+			</label>
+			<label class="visit-label" for="Email">
+				<input class="visit-input" type="email" name="Email" placeholder="&nbsp;">
+				<span class="label-text">Your Email</span>
+			</label>
+			<label class="visit-label" for="Number">
+				<input class="visit-input" type="number" name="Number" placeholder="&nbsp;">
+				<span class="label-text">Your phone
+					number</span>
+			</label>
+			<button type="submit" class="visit-button">To Plan
+				<img class="title-button-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIOSURBVHgBzViLccIwDFW4DuAN6hEYId2ADZoRsgHZADaATlA2oJ2gbNBsQJjAlUA+ODeOrDhwvDudnUSSXyT/C1DCOWexWPCjQem4hJ76riiKFhQoUhWRSIWFRWm5oU7QJ2ILb4P6W5gC6LhEWXNkxvqwKA3/1GgnBqUmQjAR+Odqjp7K0HJUdIbpvjfJEffhhTsD21iKpDhNW3gQxCxwfi08jtC5n8Y+VrEOfI++dOO77G031m8410eUOdyP1Cp8UfWlikP64y4YTUqKMA+kiuozfmf7pniejd9QDnBZEvYjSVHffI995LbtP3Yx5EaKRi7bLgZ0KEuvkDpz5pBC3U+2qwT/NaXMSAslITN94g97DjNQIIOUJ9RKekRIjM4EpFLnsW6mUM4hZX2DMAyjSlkmKcJR+A7qlGlJBRPuSXA5LmVaUoHuEExWhBJJWVDg3IfcBKt5QqTaIXvm0CUtHRr0zOhrrv8KdtcF3k28ZQ1IeewFm4bKF35uiZ32UMeOLFctXPsLld8oSUsL+2jDl2vBaEl/SaFn0WI34Lvx9Zeb9zv8UGKUviJ2HygVxEdNy2UXyInLQ4RMCbEO74StCA8A2gPPuW4hA+yjHlIwUuqmhLscGI2k9KiDYuOUp9dNbkoivikLK7Vv90yXDYGTShXefh/+8qKUdJ/uwiqZ0E1DlhuKXeMZuO4g1Fd6f/KLl4MpASZNAAAAAElFTkSuQmCC" width="48px">
+			</button>
+		</form>
+	</div>
+
+</div>
+<div class="backdrop js-overlay-modal overlay"></div>
   
+
 </body>
 
 </html>
