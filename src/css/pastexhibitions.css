@@ -1,0 +1,72 @@
+.About-title-button.pastexb {
+	display: none;
+}
+
+.pastexb {
+	position: relative;
+	display: -webkit-inline-box;
+	width: 100%;
+	height: 400px;
+	overflow-y: hidden;
+	overscroll-behavior: none;
+	margin-bottom: 24px;
+}
+
+.pastexb::-webkit-scrollbar {
+	width: 0;
+}
+
+.pastexb-item {
+	width: fit-content;
+	height: 400px;
+}
+
+.img-container-pastexb {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.button-list-scroll {
+	text-align: end;
+	padding-bottom: 90px;
+}
+
+@media only screen and (min-width: 768px) {
+	.button-list-scroll {
+		padding-bottom: 96px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.button-list-scroll {
+		padding-bottom: 192px;
+	}
+
+	.About-container.Pastexhibit {
+		margin-top: 138px;
+	}
+}
+
+.right-button {
+	border-radius: 50%;
+	text-align: center;
+	width: 48px;
+	height: 48px;
+}
+
+.scroll-svg {}
+
+.About-background-img.pastexhibit {
+	background-image: url("../img/elem-logo (2).png");
+	position: absolute;
+	top: 1934px;
+	right: -146px;
+	background-position-x: 77%;
+	background-position-y: 0;
+	background-size: 1150px;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 700px;
+	z-index: -1;
+}

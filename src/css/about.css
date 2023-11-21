@@ -41,9 +41,7 @@
 }
 
 @media only screen and (min-width:1440px) {
-	.About-title-button {
-		rotate: 50deg;
-	}
+	.About-title-button {}
 }
 
 .Abaut-paragraph-container {

@@ -92,7 +92,7 @@
 }
 
 .About-title-button.Event.is-open {
-	transform: rotate(90deg);
+	transform: rotate(50deg);
 }
 
 @media only screen and (min-width: 768px) {
