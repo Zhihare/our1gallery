@@ -1,0 +1,147 @@
+.About-container.Event {
+	margin-top: 48px;
+}
+
+
+.About-title.Event {}
+
+.About-title-button.Event {
+	display: flow-root;
+	transition: var(--transition-duration-and-func);
+}
+
+.Event-ul {
+	display: flex;
+	gap: 32px;
+	margin-bottom: 48px;
+	flex-wrap: wrap;
+	transition: var(--transition-duration-and-func);
+}
+
+@media only screen and (max-width: 768px) {
+	.Event-ul>li:not(:first-child) {
+		display: none;
+	}
+
+	.Event-ul.is-open>li:not(:first-child) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.Event-ul>li:not(:nth-child(-n+2)) {
+		display: none;
+	}
+
+	.Event-ul.is-open>li:not(:nth-child(-n+2)) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+
+.Event-item {
+	width: 358px;
+	margin: 0 auto;
+}
+
+.img-container {
+	display: block;
+	height: 283px;
+	margin-bottom: 24px;
+}
+
+.img-container img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.event-title {
+	font-size: 32px;
+	font-weight: 200;
+	line-height: normal;
+	margin-bottom: 12px;
+}
+
+.event-data {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 24px;
+	margin-bottom: 36px;
+	/* 133.333% */
+}
+
+.event-text {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 16px;
+	height: 162px;
+	margin-bottom: 16px;
+}
+
+.title-button.event {
+	height: 52px;
+	margin: 0;
+	width: 100%;
+	margin-bottom: 48px;
+}
+
+.About-title-button.Event.is-open {
+	transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 768px) {
+	.img-container {
+		margin-bottom: 32px;
+	}
+
+	.Event-ul {
+		overflow-x: scroll;
+	}
+
+	.Event-item {
+		width: 413px;
+	}
+
+	.event-text {
+		margin-bottom: 24px;
+	}
+
+	.title-button.event {
+		height: 52px;
+		margin: 0;
+		width: 156px;
+		margin-left: auto;
+		margin-bottom: 48px;
+	}
+
+	.img-container {
+		height: 354px;
+	}
+
+	.event-text {
+		text-align: justify;
+		font-size: 18px;
+		font-weight: 200;
+		line-height: 24px;
+		height: 220px;
+		margin-bottom: 16px;
+	}
+}
+
+
+
+.white {}
+
+.js-open-modal {}
+
+.title-button-img {}
+
+.About-title-button {}
+
+.About-title-img-button {}
