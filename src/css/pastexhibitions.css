@@ -36,6 +36,11 @@
 	.button-list-scroll {
 		padding-bottom: 96px;
 	}
+
+}
+
+.About-background-img.pastexhibit {
+	display: none;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -45,6 +50,20 @@
 
 	.About-container.Pastexhibit {
 		margin-top: 138px;
+	}
+
+	.About-background-img.pastexhibit {
+		background-image: url("../img/elem-logo (2).png");
+		position: absolute;
+		top: 1934px;
+		right: -146px;
+		background-position-x: 77%;
+		background-position-y: 0;
+		background-size: 1150px;
+		background-repeat: no-repeat;
+		width: 1000px;
+		height: 700px;
+		z-index: -1;
 	}
 }
 
@@ -56,17 +75,3 @@
 }
 
 .scroll-svg {}
-
-.About-background-img.pastexhibit {
-	background-image: url("../img/elem-logo (2).png");
-	position: absolute;
-	top: 1934px;
-	right: -146px;
-	background-position-x: 77%;
-	background-position-y: 0;
-	background-size: 1150px;
-	background-repeat: no-repeat;
-	width: 1000px;
-	height: 700px;
-	z-index: -1;
-}
