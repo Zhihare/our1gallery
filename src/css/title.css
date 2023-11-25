@@ -161,7 +161,7 @@
 
 .title-button {
 	display: flex;
-	width: 358px;
+	width: 100%;
 	padding: 8px 24px;
 	justify-content: space-between;
 	align-items: center;

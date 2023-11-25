@@ -111,7 +111,7 @@
 
 .footer-form-input {
 	width: 356px;
-	height: 64px;
+	/* height: 64px; */
 	border-radius: 66px;
 	border: 2px solid #FFF;
 	background: transparent;
@@ -134,6 +134,7 @@
 @media only screen and (max-width: 768px) {
 	.footer-form-form {
 		justify-content: flex-start;
+		flex-wrap: wrap;
 
 	}
 
@@ -143,6 +144,7 @@
 
 	.footer-form-input {
 		width: auto;
+		height: auto;
 		padding: 12px 16px;
 	}
 
