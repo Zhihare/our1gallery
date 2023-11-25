@@ -36,7 +36,7 @@ body {
   color: var(--body-text-cl);
   font-size: 16px;
   position: relative;
-  background-image: url('../img/elem-logo\ \(2\).png');
+  /* background-image: url('../img/elem-logo\ \(2\).png'); */
   background-repeat: no-repeat;
   background-position-y: calc(var(--index)*-19);
   background-position-x: calc(var(--index)*2);

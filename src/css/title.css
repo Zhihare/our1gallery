@@ -4,6 +4,33 @@
 	}
 }
 
+.Title-background-img {
+	background-image: url("/img/elem-logo (2).png");
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-position-x: -45%;
+	background-position-y: 119%;
+	background-size: 780px;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 508px;
+}
+
+@media only screen and (min-width: 768px) {
+	.Title-background-img {
+		background-position-x: 0;
+		background-position-y: 90%;
+		background-size: 883px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.Title-background-img {
+		display: none;
+	}
+}
+
 .background-img {
 	position: absolute;
 	top: 0;
