@@ -15,29 +15,29 @@
 	},
 	{
 		"id": 3,
-		"img": "./img/Catalog/image 1751x.png",
-		"img2x": "./img/Catalog/image 1752x.png",
+		"img": "../img/Catalog/image 1751x.png",
+		"img2x": "../img/Catalog/image 1752x.png",
 		"title": "Funny.",
 		"price": "$1150.00"
 	},
 	{
 		"id": 4,
-		"img": "./img/Catalog/unsplash_CXjp1ycr5Vw1x.png",
-		"img2x": "./img/Catalog/unsplash_CXjp1ycr5Vw2x (1).png",
+		"img": "../img/Catalog/unsplash_CXjp1ycr5Vw1x.png",
+		"img2x": "../img/Catalog/unsplash_CXjp1ycr5Vw2x (1).png",
 		"title": "One, Another",
 		"price": "$250.00"
 	},
 	{
 		"id": 5,
-		"img": "./img/Catalog/unsplash_I2RnOO8ojQ41x.png",
-		"img2x": "./img/Catalog/unsplash_I2RnOO8ojQ42x.png",
+		"img": "../img/Catalog/unsplash_I2RnOO8ojQ41x.png",
+		"img2x": "../img/Catalog/unsplash_I2RnOO8ojQ42x.png",
 		"title": "Roy Lichtenstein: Pastel",
 		"price": "$550.00"
 	},
 	{
 		"id": 6,
-		"img": "./img/Catalog/unsplash_k39RGHmLoV81x.png",
-		"img2x": "./img/Catalog/unsplash_k39RGHmLoV82x.png",
+		"img": "../img/Catalog/unsplash_k39RGHmLoV81x.png",
+		"img2x": "../img/Catalog/unsplash_k39RGHmLoV82x.png",
 		"title": "All Kets",
 		"price": "$2150.00"
 	}
