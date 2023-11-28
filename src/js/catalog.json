@@ -1,43 +1,43 @@
 [
 	{
 		"id": 1,
-		"img": "../img/Catalog/image 174_1x_400.png",
-		"img2x": "../img/Catalog/image 174_2x400.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%20174_1x_400.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%20174_2x400.png?raw=true",
 		"title": "Nicolas Party: Pastel",
 		"price": "$1150.00"
 	},
 	{
 		"id": 2,
-		"img": "../img/Catalog/image 1751x (1).png",
-		"img2x": "../img/Catalog/image 1752x (1).png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%201751x%20(1).png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%201752x%20(1).png?raw=true",
 		"title": "Disturbing Innocence",
 		"price": "$1450.00"
 	},
 	{
 		"id": 3,
-		"img": "../img/Catalog/image 1751x.png",
-		"img2x": "../img/Catalog/image 1752x.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%201751x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/image%201752x.png?raw=true",
 		"title": "Funny.",
 		"price": "$1150.00"
 	},
 	{
 		"id": 4,
-		"img": "../img/Catalog/unsplash_CXjp1ycr5Vw1x.png",
-		"img2x": "../img/Catalog/unsplash_CXjp1ycr5Vw2x (1).png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_CXjp1ycr5Vw1x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_CXjp1ycr5Vw2x%20(1).png?raw=true",
 		"title": "One, Another",
 		"price": "$250.00"
 	},
 	{
 		"id": 5,
-		"img": "../img/Catalog/unsplash_I2RnOO8ojQ41x.png",
-		"img2x": "../img/Catalog/unsplash_I2RnOO8ojQ42x.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_I2RnOO8ojQ41x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_I2RnOO8ojQ42x.png?raw=true",
 		"title": "Roy Lichtenstein: Pastel",
 		"price": "$550.00"
 	},
 	{
 		"id": 6,
-		"img": "../img/Catalog/unsplash_k39RGHmLoV81x.png",
-		"img2x": "../img/Catalog/unsplash_k39RGHmLoV82x.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_k39RGHmLoV81x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Catalog/unsplash_k39RGHmLoV82x.png?raw=true",
 		"title": "All Kets",
 		"price": "$2150.00"
 	}

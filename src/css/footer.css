@@ -42,7 +42,7 @@
 
 .footer-logo {
 	/* margin: 0 auto; */
-	height: 100px;
+	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 35px;
