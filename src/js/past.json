@@ -1,22 +1,22 @@
 [
 	{
 		"id": 1,
-		"img": "./img/Past/image 1771x.png",
-		"img2x": "./img/Past/image 1772x.png"
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201771x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201772x.png?raw=true"
 	},
 	{
 		"id": 2,
-		"img": "./img/Past/image 1791x.png",
-		"img2x": "./img/Past/image 1792x.png"
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201791x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201792x.png?raw=true"
 	},
 	{
 		"id": 3,
-		"img": "./img/Past/image 1801x.png",
-		"img2x": "./img/Past/image 1802x.png"
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201801x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201802x.png?raw=true"
 	},
 	{
 		"id": 4,
-		"img": "./img/Past/image 1811x.png",
-		"img2x": "./img/Past/image 1812x.png"
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201811x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Past/image%201812x.png?raw=true"
 	}
 ]

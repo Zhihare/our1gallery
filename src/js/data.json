@@ -1,24 +1,24 @@
 [
 	{
 		"id": 1,
-		"img": "./img/event/image 1761x.png",
-		"img2x": "./img/event/image 1762x.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201761x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201762x.png?raw=true",
 		"data": "May 6, 2023 - November 12, 2024",
 		"title": "Lauren Halsey",
 		"text": "The Spotlight exhibition series includes a new or never-before-exhibited artwork accompanied by a commissioned piece of writing. It is the hope of this series to create focused and thoughtful dialogues between the visual arts and critics, poets, scholars, etc.In this iteration, the Spotlight features Lauren Halsey’s portal."
 	},
 	{
 		"id": 2,
-		"img": "./img/event/image 1761x (1).png",
-		"img2x": "./img/event/image 1762x (1).png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201761x%20(1).png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201762x%20(1).png?raw=true",
 		"data": "October 6, 2023 - December 22, 2024",
 		"title": "Friends & Lovers",
 		"text": "Friends & Lovers is an expansive group exhibition that centers on the relationships between artists and their subjects and explores the infinite ways (both past and present) we are influenced by our inner circles. Highlighting a range of media, practices, and approaches to artmaking, artists in the exhibition include   Peter Cain."
 	},
 	{
 		"id": 3,
-		"img": "./img/event/image 1771x.png",
-		"img2x": "./img/event/image 1772x.png",
+		"img": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201771x.png?raw=true",
+		"img2x": "https://github.com/Zhihare/our1gallery/blob/main/src/img/Event/image%201772x.png?raw=true",
 		"data": "October 6, 2023 - December 22, 2024",
 		"title": "Cynthia Daignault",
 		"text": "Cynthia Daignault’s new series of paintings—part solo exhibition, virtual group show, and curatorial project—is a collaboration with 36 artists exploring ideas of agency, appropriation, and the traces we leave behind.In collaboration with Cory Arcangel, Conor Backman, Sadie Barnette, Jason Bereswill, Todd Bienvenu, Carol Bove,   Canyon Castato."
