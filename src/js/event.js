@@ -27,7 +27,7 @@ function createMarkup(arr) {
 	<p class="event-data">${data}</p>
 	<p class="event-text">${text}</p>
 	<button class="title-button white event js-open-modal" data-modal="1">Visit
-			<img class="title-button-img" src="./img/icons/elem (1).png" width="24px">
+			<img class="title-button-img" src="https://github.com/Zhihare/our1gallery/blob/main/src/img/icons/elem%20(1).png?raw=true" width="24px">
 		</button>
 	</li>
 	`, "");
